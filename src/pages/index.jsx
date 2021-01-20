@@ -1,5 +1,15 @@
 import React from "react"
 
-export default function Home() {
-  return <div>Hello world teste!</div>
+import Layout from "../components/Layout"
+import Card from "../components/Card"
+
+export default function IndexPage() {
+  return (
+    <Layout>
+      <h1>Home</h1>
+      <p>Welcome to your new Gatsby Site</p>
+      <p>Now go buld something great.</p>
+      <Card />
+    </Layout>
+  )
 }
