@@ -8,31 +8,32 @@ const siteMetadata = require("./config/metadata")
 
 module.exports = {
   siteMetadata: {
-    title: `Refrigeração Marques`,
-    siteUrl: `https://www.gatsbyjs.com`,
-    description: `O melhor em assistência técnica em refrigeração`,
+    title: `Claro`,
+    siteUrl: `https://pacotesclaro.com.br/`,
+    description: `Pacotes da Claro`,
     social: [
       {
         name: "facebook",
-        url: "https://www.facebook.com/alison.marquesdejesus",
+        url: "https://www.facebook.com/ClaroBR",
       },
     ],
   },
-  pathPrefix: "/assistencia",
+  pathPrefix: "/planos",
 
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Refrigeração Marques`,
-        short_name: `Refrigeração`,
+        name: `Claro Afiliados`,
+        short_name: `Claro`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: `src/assets/icon.png`,
+        icon: `src/assets/logo-claromusica.svg`,
       },
     },
     {
@@ -69,6 +70,19 @@ module.exports = {
         sampleRate: 5,
         siteSpeedSampleRate: 10,
         cookieDomain: "example.com",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        displayName: process.env.NODE_ENV !== "production",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-page-creator`,
+      options: {
+        path: `${__dirname}/src/pages`,
+        ignore: [`**/styles.js`],
       },
     },
 
