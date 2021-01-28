@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Refrigeração Marques`,
+    title: `Claro`,
     siteUrl: `https://www.gatsbyjs.com`,
-    description: `O melhor em assistência técnica em refrigeração`,
+    description: `Claro Planos`,
     social: [
       {
         name: "facebook",
-        url: "https://www.facebook.com/alison.marquesdejesus",
+        url: "https://www.facebook.com/ClaroBR",
       },
     ],
   },
-  pathPrefix: "/assistencia",
+  pathPrefix: "/planos",
 }
