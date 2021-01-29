@@ -26,6 +26,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     versão do Yarn: 1.22.5<br/>
 
     ```shell
+    Comando para instalar o Gatsby :  yarn add -g gatsby-cli ou npm install -g gatsby-cli
     Rode:
     1 - yarn (dentro da pasta do projeto para baixar todas as dependências).
     2 - (yarn start ou gatsby develop)
