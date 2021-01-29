@@ -1,19 +1,20 @@
 import React from "react"
-import PropTypes from "prop-types"
-import "./layout.scss"
 
-const Layout = ({ children }) => {
+import banner from "../../assets/banner.jpg"
+import bannerMobile from "../../assets/banner-mobile.jpg"
+
+const Layout = () => {
   return (
-    <>
-      Header
-      <main>{children}</main>
-      Footer
-    </>
+    <section className="wrapper">
+      <header className="header">
+        <picture>
+          <source media="max-width: 667px" srcSet={bannerMobile} />
+          <img src={banner} alt="banner" className="banner-img" />
+        </picture>
+      </header>
+      <main className="main"></main>
+    </section>
   )
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default Layout

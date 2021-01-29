@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}
+
+.header {
+  position: relative;
+}
+
+.banner-img {
+  width: 100%;
+  height: 28.489vw;
+  object-fit: cover;
+  display: block;
+}
+
+@media screen and (max-width: 667px) {
+  .banner-img {
+    height: 50vw;
+  }
+}
