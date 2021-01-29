@@ -8,7 +8,7 @@ const siteMetadata = require("./config/metadata")
 
 module.exports = {
   siteMetadata: {
-    title: `Claro`,
+    title: `ClaroBR`,
     siteUrl: `https://pacotesclaro.com.br/`,
     description: `Pacotes da Claro`,
     social: [

@@ -7,7 +7,7 @@ import iconeNetClaro from "../../assets/icone-netclarowifi.svg"
 
 // import { Container } from './styles';
 
-const Sobre = () => {
+export default function Sobre() {
   return (
     <section className="sobre">
       <div className="sobre-content">
@@ -61,5 +61,3 @@ const Sobre = () => {
     </section>
   )
 }
-
-export default Sobre
