@@ -3,7 +3,7 @@ import React from "react"
 import banner from "../../assets/banner.jpg"
 import bannerMobile from "../../assets/banner-mobile.jpg"
 
-const Layout = () => {
+export default function Layout() {
   return (
     <section className="wrapper">
       <header className="header">
@@ -16,5 +16,3 @@ const Layout = () => {
     </section>
   )
 }
-
-export default Layout

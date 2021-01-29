@@ -4,7 +4,7 @@ import logoWifi from "../../assets/logo-wifiplus.svg"
 import logoNow from "../../assets/logo-now.svg"
 import logoClaroMsc from "../../assets/logo-claromusica.svg"
 
-const CardClaro = () => {
+export default function CardClaro() {
   return (
     <section className="pacotes">
       <div className="pacotes-slick">
@@ -128,5 +128,3 @@ const CardClaro = () => {
     </section>
   )
 }
-
-export default CardClaro
