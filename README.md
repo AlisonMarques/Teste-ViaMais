@@ -14,31 +14,24 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
 
-    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
+1.  **Start Projeto Claro.**
 
-    ```shell
-    # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
-    ```
-
-1.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
+    Será necessário ter instalado em sua máquina o (NodeJS, Gatsby.js, Git e o gerenciador de pacotes Yarn.
+    
+    versão do Node: v14.15.4
+    versão do Gatsby CLI: 2.15.0
+    versão do Gatsby: 2.28.0
+    versão do Git: 1.22.5
+    versão do Yarn: 1.22.5
 
     ```shell
-    cd my-hello-world-starter/
-    gatsby develop
+    Rode:
+    1 - yarn (dentro da pasta do projeto para baixar todas as dependências).
+    2 - (yarn start ou gatsby develop)
+    3 - gatsby serve (para rodar a build do projeto e poder utilizar o PWA feito pelo gatsby)
     ```
 
-1.  **Open the source code and start editing!**
-
-    Your site is now running at `http://localhost:8000`!
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
-
-    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 ## 🧐 What's inside?
 
