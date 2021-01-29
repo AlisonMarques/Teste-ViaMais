@@ -19,11 +19,11 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     Será necessário ter instalado em sua máquina o (NodeJS, Gatsby.js, Git e o gerenciador de pacotes Yarn.
     
-    versão do Node: v14.15.4
-    versão do Gatsby CLI: 2.15.0
-    versão do Gatsby: 2.28.0
-    versão do Git: 1.22.5
-    versão do Yarn: 1.22.5
+    versão do Node: v14.15.4 <br/>
+    versão do Gatsby CLI: 2.15.0<br/>
+    versão do Gatsby: 2.28.0<br/>
+    versão do Git: 1.22.5<br/>
+    versão do Yarn: 1.22.5<br/>
 
     ```shell
     Rode:
