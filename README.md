@@ -29,9 +29,14 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Rode:
     1 - yarn (dentro da pasta do projeto para baixar todas as dependências).
     2 - (yarn start ou gatsby develop)
-    3 - gatsby serve (para rodar a build do projeto e poder utilizar o PWA feito pelo gatsby)
+    3 - gatsby build (para montar a build)
+    4 - gatsby serve (para rodar a build do projeto e poder utilizar o PWA feito pelo gatsby)
     ```
-
+<h1 align="center">
+    <img alt="Image1" title="Image1" src=".github/tela-1-claro.png" />
+    <img alt="Image2" title="Image2" src=".github/tela-2-claro.png" />
+  
+</h1>
 
 ## 🧐 What's inside?
 
