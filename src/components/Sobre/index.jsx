@@ -11,7 +11,7 @@ const Sobre = () => {
   return (
     <section className="sobre">
       <div className="sobre-content">
-        <div className="sobre-item-o">
+        <div className="sobre-item">
           <figure>
             <img src={iconeWifi} alt="Wi-Fi plus" />
           </figure>
@@ -22,7 +22,7 @@ const Sobre = () => {
           </p>
         </div>
 
-        <div className="sobre-item-t">
+        <div className="sobre-item">
           <figure>
             <img src={iconeNow} alt="NOW" />
           </figure>
@@ -34,7 +34,7 @@ const Sobre = () => {
           </p>
         </div>
 
-        <div className="sobre-item-3">
+        <div className="sobre-item">
           <figure>
             <img src={iconeAssist} alt="Claro assist" />
           </figure>
@@ -46,7 +46,7 @@ const Sobre = () => {
           </p>
         </div>
 
-        <div className="sobre-item-4">
+        <div className="sobre-item">
           <figure>
             <img src={iconeNetClaro} alt="Net Claro WIFI" />
           </figure>
